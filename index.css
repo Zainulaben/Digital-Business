@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  background-color: #23252c;
+  font-family: Inter, sans-serif;
+}
+
+/* main container */
+.container {
+  background-color: #1a1b21;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* mine image */
+img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+/* Name and Title */
+.Name > h3,
+.Name > h4 {
+  text-align: center;
+  margin: 0px;
+}
+
+.Name > h3 {
+  color: #ffffff;
+  margin-top: 21px;
+  font-size: 22px;
+}
+
+.Name > h4 {
+  color: #f3bf99;
+  font-size: 15px;
+}
+
+/* Social Icons */
+.social--button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social--button > a {
+  padding: 9px 13px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  margin-right: 20px;
+  cursor: pointer;
+  width: 115px;
+  text-decoration: none;
+}
+
+.social--button > .email {
+  background-color: #ffffff;
+  color: #374151;
+  transition: all 0.3s ease-in-out;
+}
+
+.social--button > .email:hover {
+  color: #ffffff;
+  background-color: #374151;
+}
+
+.social--button > .linkedin {
+  background-color: #5093e2;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.social--button > .linkedin:hover {
+  background-color: #ffffff;
+  color: #5093e2;
+}
+
+.social--button > a:last-child {
+  margin-right: 0;
+}
+
+.social--button > a > .icon {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.social--button > a > .icon--text {
+  text-align: end;
+  margin-top: 1.6px;
+  font-size: 12px;
+}
+
+/* About and Interest */
+.about,
+.interest {
+  width: 242px;
+  margin: 31px auto 0 auto;
+}
+
+.about--title,
+.interest--title {
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f5f5f5;
+  text-align: left;
+  margin: 0;
+}
+
+.about--content,
+.interest--content {
+  margin: 0;
+  color: #dcdcdc;
+  font-size: 11px;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+/* Footer */
+footer {
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer--icons {
+  margin-top: 24px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 36px;
+  margin-right: 32px;
+}
+
+.footer--icons > a {
+  color: #918e9b;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer--icons > a:hover {
+  color: #f5f5f5;
+}
+
+.footer--icons > a > .icon {
+  height: 30px;
+  width: 30px;
+}
